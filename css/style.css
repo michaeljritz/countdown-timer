@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #8486a9;
+  background-color: #fb6087;
+  background-color: white;
+  background-color: #343650;
+  background-color: #1e1f29;
+  background-color: #191a24;
+  background-image: url("../images/bg-stars.svg"), linear-gradient(90deg, red, blue) repeat;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
