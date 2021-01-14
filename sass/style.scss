@@ -7,22 +7,10 @@ body {
         linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
 }
 
-header {
-    display: absolute;
-    font-size: 14px;
-    font-family: 'Red Hat Text', sans-serif;
-    letter-spacing: 5px;
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-}
-
-#timer-container {
-    display: flex;
-    background-color: green;
-}
-
-#footer {
-    display: flex;
-    position: fixed;
+img {
+    position: absolute;
     bottom: 0;
+    width: 100%;
+    min-height: 300px;
+    min-width: 1000px;
 }

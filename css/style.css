@@ -10,22 +10,10 @@ body {
   background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
 }
 
-header {
-  display: absolute;
-  font-size: 14px;
-  font-family: 'Red Hat Text', sans-serif;
-  letter-spacing: 5px;
-  text-align: center;
-  color: white;
-}
-
-#timer-container {
-  display: flex;
-  background-color: green;
-}
-
-#footer {
-  display: flex;
-  position: fixed;
+img {
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  min-height: 300px;
+  min-width: 1000px;
 }
