@@ -7,10 +7,16 @@ body {
         linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
 }
 
+#header {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: white;
+    border: solid red;
+}
+
 img {
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 300px;
-    min-width: 1000px;
 }
