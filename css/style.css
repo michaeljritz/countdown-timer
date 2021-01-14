@@ -1,17 +1,31 @@
+.card {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
 body {
   margin: 0;
-  background-color: #8486a9;
-  background-color: #fb6087;
-  background-color: white;
-  background-color: #343650;
-  background-color: #1e1f29;
-  background-color: #191a24;
-  background-image: url("../images/bg-stars.svg"), linear-gradient(90deg, red, blue) repeat;
+  height: 100vh;
+  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
+}
+
+header {
+  display: absolute;
+  font-size: 14px;
+  font-family: 'Red Hat Text', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+}
+
+#timer-container {
+  display: flex;
+  background-color: green;
 }
 
 #footer {
+  display: flex;
   position: fixed;
   bottom: 0;
 }
-
-/*# sourceMappingURL=style.css.map */

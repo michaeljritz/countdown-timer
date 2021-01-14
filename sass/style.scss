@@ -1,24 +1,28 @@
+@import 'card';
+
 body {
     margin: 0;
+    height: 100vh;
+    background: url('../images/bg-stars.svg'),
+        linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
+}
 
-    background-color: hsl(237, 18%, 59%);
-    background-color: hsl(345, 95%, 68%);
-    background-color: hsl(0, 0%, 100%);
-    background-color: hsl(236, 21%, 26%);
-    background-color: hsl(235, 16%, 14%);
-    background-color: hsl(234, 17%, 12%);
+header {
+    display: absolute;
+    font-size: 14px;
+    font-family: 'Red Hat Text', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
 
-    // background-color: line;
-    // background-image: url(../images/bg-stars.svg);
-    // background-position: right;
-    // background-repeat: no-repeat;
-
-    background-image: url("../images/bg-stars.svg"), linear-gradient(90deg, red, blue) no-repeat; 
-
+#timer-container {
+    display: flex;
+    background-color: green;
 }
 
 #footer {
+    display: flex;
     position: fixed;
     bottom: 0;
 }
-
