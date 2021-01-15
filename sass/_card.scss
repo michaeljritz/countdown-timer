@@ -10,15 +10,22 @@
 
     color: white;
 
-
-    border: solid green;
 }
 
 .card-digit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 120px;
     height: 120px;
 
-    border: solid yellow;
+    font-size: 55px;
+    color: hsl(345, 95%, 68%);
+
+    background-color: hsl(236, 21%, 26%);
+    // background-color: hsl(235, 16%, 14%);
+
+    border-radius: 10px;
 }
 
 .card-label {

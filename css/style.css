@@ -7,13 +7,18 @@
   letter-spacing: 5px;
   text-align: center;
   color: white;
-  border: solid green;
 }
 
 .card-digit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 120px;
   height: 120px;
-  border: solid yellow;
+  font-size: 55px;
+  color: #fb6087;
+  background-color: #343650;
+  border-radius: 10px;
 }
 
 .card-label {
