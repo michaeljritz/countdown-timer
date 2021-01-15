@@ -5,15 +5,19 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
   margin: 0;
   height: 100vh;
   background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
 }
 
-#header {
+header {
+  padding-top: 70px;
   font-family: 'Red Hat Text', sans-serif;
   font-size: 14px;
   letter-spacing: 5px;
+  text-align: center;
   color: white;
   border: solid red;
 }
