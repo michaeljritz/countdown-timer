@@ -27,11 +27,15 @@
 }
 
 body {
+  margin: 0;
+  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
+  background-attachment: fixed;
+}
+
+#main {
   display: flex;
   flex-direction: column;
   margin: 0;
-  height: 100vh;
-  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
 }
 
 header {
@@ -49,10 +53,14 @@ header {
 }
 
 footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  width: 100%;
 }
 
-footer #footer-background {
+#footer-background {
+  position: absolute;
+  bottom: 0;
+  min-height: 200px;
   width: 100%;
 }
