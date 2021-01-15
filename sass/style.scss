@@ -1,7 +1,15 @@
 @import 'card';
 
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
+    height: 100%;
     background: url('../images/bg-stars.svg'),
         linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
     background-attachment: fixed;
@@ -25,15 +33,13 @@ header {
 #card-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-#footer-icons {
 }
 
 #footer-background {
