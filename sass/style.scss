@@ -2,7 +2,7 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin: 0;
     height: 100vh;
     background: url('../images/bg-stars.svg'),
@@ -17,9 +17,10 @@ header {
     text-align: center;
     color: white;
     border: solid red;
+}
 
-
-
+#card-container {
+    display: flex;
 }
 
 img {

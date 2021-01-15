@@ -1,0 +1,4 @@
+Used flexbox to set up layout for header and card container
+
+Used flexbox for cards
+    Used flex-direction of column to stack card digit above card label
