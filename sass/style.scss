@@ -16,7 +16,6 @@ header {
     letter-spacing: 5px;
     text-align: center;
     color: white;
-    border: solid red;
 }
 
 #card-container {
@@ -24,8 +23,12 @@ header {
     justify-content: center;
 }
 
-img {
+footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+
+    img {
+        width: 100%;
+    }
 }
+
