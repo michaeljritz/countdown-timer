@@ -8,3 +8,5 @@ Solutions needed:
 1. Need a way to create an "inverted border radius" for middle of each card
 
 2. How to solve position sticky bottom issue - above content pushes below footer image if window is resize very small vertically
+
+3. 

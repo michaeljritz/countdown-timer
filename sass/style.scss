@@ -9,20 +9,22 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 100%;
-    background: url('../images/bg-stars.svg'),
-        linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
-    background-attachment: fixed;
+    // height: 200%;
+    // background: url('../images/bg-stars.svg'),
+    //     linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
+    // background-attachment: fixed;
 }
 
 #main {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    border: solid red;
 }
 
 header {
-    padding: 70px 0px;
+    // padding: 70px 0px;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 16px;
     letter-spacing: 5px;
@@ -33,7 +35,7 @@ header {
 #card-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 }
 
 footer {

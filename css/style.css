@@ -35,19 +35,17 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  height: 100%;
-  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
-  background-attachment: fixed;
 }
 
 #main {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border: solid red;
 }
 
 header {
-  padding: 70px 0px;
   font-family: 'Red Hat Text', sans-serif;
   font-size: 16px;
   letter-spacing: 5px;
@@ -58,7 +56,6 @@ header {
 #card-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 footer {
