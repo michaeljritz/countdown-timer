@@ -10,9 +10,9 @@ body {
 }
 
 header {
-    padding-top: 70px;
+    padding: 70px 0px;
     font-family: 'Red Hat Text', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 5px;
     text-align: center;
     color: white;
@@ -21,6 +21,7 @@ header {
 
 #card-container {
     display: flex;
+    justify-content: center;
 }
 
 img {
