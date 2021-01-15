@@ -48,7 +48,11 @@ header {
   justify-content: center;
 }
 
-#footer-background {
+footer {
   position: sticky;
   bottom: 0;
+}
+
+footer #footer-background {
+  width: 100%;
 }
