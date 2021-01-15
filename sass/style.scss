@@ -23,12 +23,16 @@ header {
     justify-content: center;
 }
 
-footer {
-    position: absolute;
+// footer {
+//     position: sticky;
+//     bottom: 0;
+
+//     #footer-background {
+//         width: 100%;
+//     }
+// }
+
+#footer-background {
+    position: sticky;
     bottom: 0;
-
-    img {
-        width: 100%;
-    }
 }
-

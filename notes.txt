@@ -3,4 +3,8 @@ Used flexbox to set up layout for header and card container
 Used flexbox for cards
     Used flex-direction of column to stack card digit above card label
 
-Need a way to create an "inverted border radius" for middle of each card
+Solutions needed:
+
+1. Need a way to create an "inverted border radius" for middle of each card
+
+2. How to solve position sticky bottom issue - above content pushes below footer image if window is resize very small vertically
