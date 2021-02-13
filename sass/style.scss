@@ -2,9 +2,7 @@
 
 
 body {
-    display: flex;
-    justify-content: center;
-	height: 70vh;
+	height: 80vh;
     background: url('../images/bg-stars.svg'),
         linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
     background-attachment: fixed;
@@ -17,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
 	z-index: 100;
+	height: 100%;
 }
 
 header {
@@ -34,55 +33,27 @@ header {
     margin-bottom: 100px;
 }
 
-// footer {
-//     position: fixed;
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-//     bottom: 0;
-//     width: 100%;
-// 	min-height: 200px;
-// 	z-index: 10;
-// 	background-image: url('../images/pattern-hills.svg');
-// 	background-size: 100%;
-// 	background-repeat: no-repeat;
-//     // background: url('../images/bg-stars.svg'),
-//     //     linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
-//     // background-attachment: fixed;
-// }
-
-
-// #footer-icons {
-// 	position: relative;
-// 	height: 100%;
-// 	border: solid red;
-// 	z-index: 100;
-
-// }
-
-// #footer-background {
-//     position: absolute;
-//     bottom: 0;
-//     min-height: 200px;
-//     width: 100%;
-// 	z-index: 10;
-// }
-
-
-
 footer {
-	
-
-}
-
-
-#footer-icons {
-
-
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+	width: 100%;
 }
 
 #footer-background {
+	min-height: 200px;
+	width: 100%;
+}
 
+#footer-icons {
+	position: absolute;
+	padding-top: 50px;
+
+	img {
+		margin: 0px 20px;
+	}
 }
 
 

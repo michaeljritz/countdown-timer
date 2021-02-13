@@ -15,7 +15,7 @@
   align-items: center;
   width: 120px;
   height: 120px;
-  font-size: 55px;
+  font-size: 3.2rem;
   color: #fb6087;
   background-color: #343650;
   border-radius: 10px;
@@ -23,14 +23,26 @@
 
 .card-label {
   padding-top: 15px;
-  font-size: 12px;
+  font-size: .8rem;
   color: #8486a9;
 }
 
+@media only screen and (max-width: 650px) {
+  .card {
+    margin: 0px 8px;
+  }
+  .card-digit {
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
+  }
+  .card-label {
+    font-size: .6rem;
+  }
+}
+
 body {
-  display: flex;
-  justify-content: center;
-  height: 70vh;
+  height: 80vh;
   background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
   background-attachment: fixed;
 }
@@ -42,6 +54,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 100;
+  height: 100%;
 }
 
 header {
@@ -57,4 +70,27 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer-background {
+  min-height: 200px;
+  width: 100%;
+}
+
+#footer-icons {
+  position: absolute;
+  padding-top: 50px;
+}
+
+#footer-icons img {
+  margin: 0px 20px;
 }
