@@ -22,30 +22,30 @@
 }
 
 .card-label {
+  padding-top: 15px;
   font-size: 12px;
   color: #8486a9;
-}
-
-html {
-  height: 100%;
 }
 
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 0;
+  height: 70vh;
+  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
+  background-attachment: fixed;
 }
 
 #main {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid red;
+  z-index: 100;
 }
 
 header {
+  padding-bottom: 70px;
   font-family: 'Red Hat Text', sans-serif;
   font-size: 16px;
   letter-spacing: 5px;
@@ -56,17 +56,5 @@ header {
 #card-container {
   display: flex;
   justify-content: center;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-#footer-background {
-  position: absolute;
-  bottom: 0;
-  min-height: 200px;
-  width: 100%;
+  margin-bottom: 100px;
 }
