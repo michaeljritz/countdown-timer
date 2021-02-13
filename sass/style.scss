@@ -1,27 +1,29 @@
 @import 'card';
 
-
 body {
+	margin: 0;
 	height: 80vh;
+	text-align: center;
     background: url('../images/bg-stars.svg'),
         linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%)) no-repeat;
     background-attachment: fixed;
 }
 
 #main {
-	position: relative;
-    display: flex;
+	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	z-index: 100;
 	height: 100%;
+	position: relative;
+	z-index: 100;
 }
 
 header {
+	width: 80%;
 	padding-bottom: 70px;
     font-family: 'Red Hat Text', sans-serif;
-    font-size: 16px;
+	font-size: 1rem;
     letter-spacing: 5px;
     text-align: center;
     color: white;
@@ -29,8 +31,6 @@ header {
 
 #card-container {
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
 }
 
 footer {
@@ -40,11 +40,14 @@ footer {
 	align-items: center;
 	bottom: 0;
 	width: 100%;
+	overflow: hidden;
 }
 
 #footer-background {
 	min-height: 200px;
 	width: 100%;
+	min-width: 700px;
+	overflow: hidden;
 }
 
 #footer-icons {
@@ -55,5 +58,4 @@ footer {
 		margin: 0px 20px;
 	}
 }
-
 

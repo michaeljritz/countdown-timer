@@ -3,8 +3,6 @@
     flex-direction: column;
     margin: 0px 10px;
     font-family: 'Red Hat Text', sans-serif;
-    font-size: 14px;
-    letter-spacing: 5px;
     text-align: center;
     color: white;
 }
@@ -26,6 +24,7 @@
 	padding-top: 15px;
 	font-size: .8rem;
     color: hsl(237, 18%, 59%);
+	letter-spacing: 3px;
 }
 
 
@@ -38,10 +37,27 @@
 	.card-digit {
 		width: 80px;
 		height: 80px;
-		font-size: 2.5rem;
+		font-size: 2.1rem;
 	}
 
 	.card-label {
-		font-size: .6rem;
+		font-size: .5rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	.card {
+		margin: 0px 5px;
+	}
+
+	.card-digit {
+		width: 60px;
+		height: 60px;
+		font-size: 1.8rem;
+	}
+
+	.card-label {
+		font-size: .4rem;
 	}
 }
