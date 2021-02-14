@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 0px 10px;
+  margin: 0px 15px;
   font-family: 'Red Hat Text', sans-serif;
   text-align: center;
   color: white;
@@ -17,10 +17,18 @@
   font-size: 3.6rem;
   border-radius: 10px;
   color: #fa5f85;
-  background: radial-gradient(circle at top left, transparent 5px, #34364f 0) bottom left, radial-gradient(circle at bottom left, transparent 5px, #34364f 0) top left, radial-gradient(circle at top right, transparent 5px, #34364f 0) bottom right, radial-gradient(circle at bottom right, transparent 5px, #34364f 0) top right;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background-color: #171920;
+  background-color: #34364f;
+}
+
+.card-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.04);
+  background: radial-gradient(circle at 0 50%, #171920 4%, transparent 4px), radial-gradient(circle at 100% 50%, #171920 4%, transparent 4px);
+  z-index: 500;
 }
 
 .card-top {
