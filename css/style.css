@@ -8,15 +8,33 @@
 }
 
 .card-digit {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 120px;
   height: 120px;
-  font-size: 3.2rem;
+  font-size: 3.6rem;
+  border-radius: 10px;
   color: #fb6087;
   background-color: #343650;
-  border-radius: 10px;
+  background: radial-gradient(circle at top left, transparent 5px, #343650 0) bottom left, radial-gradient(circle at bottom left, transparent 5px, #343650 0) top left, radial-gradient(circle at top right, transparent 5px, #343650 0) bottom right, radial-gradient(circle at bottom right, transparent 5px, #343650 0) top right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.card-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: .2;
+  height: 50%;
+  width: 100%;
+  z-index: 300;
 }
 
 .card-label {
