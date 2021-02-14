@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+	<script src="js/countdown.js"></script>
+	<script src="js/index.js"></script>
 	<title>Countdown Timer</title>
 </head>
 
@@ -16,41 +18,41 @@
 	<div id="main">
 		<header>WE'RE LAUNCHING SOON</header>
 		<div id="card-container">
-			<div id="day-card" class="card">
+			<div class="card">
 				<div class="card-digit">
 					<div class="card-mask"></div>
 					<div class="card-top"></div>
-					<p>08</p>
+					<p id="day-counter">00</p>
 				</div>
 				<div class="card-label">
 					<p>DAYS</p>
 				</div>
 			</div>
-			<div id="hour-card" class="card">
+			<div class="card">
 				<div class="card-digit">
 					<div class="card-mask"></div>
 					<div class="card-top"></div>
-					<p>23</p>
+					<p id="hour-counter">00</p>
 				</div>
 				<div class="card-label">
 					<p>HOURS</p>
 				</div>
 			</div>
-			<div id="minute-card" class="card">
+			<div class="card">
 				<div class="card-digit">
 					<div class="card-mask"></div>
 					<div class="card-top"></div>
-					<p>55</p>
+					<p id="minute-counter">00</p>
 				</div>
 				<div class="card-label">
 					<p>MINUTES</p>
 				</div>
 			</div>
-			<div id="second-card" class="card">
+			<div class="card">
 				<div class="card-digit">
 					<div class="card-mask"></div>
 					<div class="card-top"></div>
-					<p>41</p>
+					<p id="second-counter"></p>
 				</div>
 				<div class="card-label">
 					<p>SECONDS</p>
