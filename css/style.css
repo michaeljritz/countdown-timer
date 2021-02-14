@@ -134,14 +134,19 @@ footer {
 }
 
 #footer-icons {
+  display: flex;
   position: absolute;
   padding-top: 50px;
   z-index: 200;
 }
 
-#footer-icons svg {
-  fill: #848fa9;
+#footer-icons a {
   margin: 0px 20px;
+}
+
+#footer-icons svg {
+  display: block;
+  fill: #848fa9;
 }
 
 #footer-icons svg:hover {

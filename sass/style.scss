@@ -55,15 +55,20 @@ footer {
 }
 
 #footer-icons {
+	display: flex;
 	position: absolute;
 	padding-top: 50px;
 	z-index: 200;
 
-	svg {
-		fill: rgb(132, 143, 169);
+	a {
 		margin: 0px 20px;
 	}
-	
+
+	svg {
+		display: block;
+		fill: rgb(132, 143, 169);
+	}
+
 	svg:hover {
 		fill: rgb(250, 95, 133);
 	}
