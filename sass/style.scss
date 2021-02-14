@@ -59,8 +59,12 @@ footer {
 	padding-top: 50px;
 	z-index: 200;
 
-	img {
+	svg {
+		fill: rgb(132, 143, 169);
 		margin: 0px 20px;
 	}
+	
+	svg:hover {
+		fill: rgb(250, 95, 133);
+	}
 }
-

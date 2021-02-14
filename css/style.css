@@ -139,6 +139,11 @@ footer {
   z-index: 200;
 }
 
-#footer-icons img {
+#footer-icons svg {
+  fill: #848fa9;
   margin: 0px 20px;
+}
+
+#footer-icons svg:hover {
+  fill: #fa5f85;
 }
