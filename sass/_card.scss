@@ -18,6 +18,7 @@
 	border-radius: 10px;
 	color: rgb(250, 95, 133);
 	background-color: rgb(52, 54, 79);
+	box-shadow: 0px 10px rgb(23, 25, 32);
 }
 
 .card-mask {
@@ -29,7 +30,7 @@
 	background-color: rgba(255, 0, 0, .04);
 	background: radial-gradient(circle at 0 50%, rgb(23, 25, 32) 4%, transparent 4px),
 				radial-gradient(circle at 100% 50%, rgb(23, 25, 32) 4%, transparent 4px);
-	z-index: 500;
+	z-index: 400;
 }
 
 .card-top {
