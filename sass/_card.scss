@@ -16,19 +16,16 @@
     height: 120px;
     font-size: 3.6rem;
 	border-radius: 10px;
-    color: hsl(345, 95%, 68%);
-    background-color: hsl(236, 21%, 26%);
-    // background-color: hsl(235, 16%, 14%);
-	// background-color: hsl(237, 18%, 59%);
+	color: rgb(250, 95, 133);
 
 	background:
-    radial-gradient(circle at top left, transparent 5px, hsl(236, 21%, 26%) 0) bottom left,
-    radial-gradient(circle at bottom left, transparent 5px, hsl(236, 21%, 26%) 0) top left,
-    radial-gradient(circle at top right, transparent 5px, hsl(236, 21%, 26%) 0) bottom right,
-    radial-gradient(circle at bottom right, transparent 5px, hsl(236, 21%, 26%) 0) top right;
+    radial-gradient(circle at top left, transparent 5px, rgb(52, 54, 79) 0) bottom left,
+    radial-gradient(circle at bottom left, transparent 5px, rgb(52, 54, 79) 0) top left,
+    radial-gradient(circle at top right, transparent 5px, rgb(52, 54, 79) 0) bottom right,
+    radial-gradient(circle at bottom right, transparent 5px, rgb(52, 54, 79) 0) top right;
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: rgb(23, 25, 32);
 
 }
 
@@ -48,7 +45,7 @@
 .card-label {
 	padding-top: 15px;
 	font-size: .8rem;
-    color: hsl(237, 18%, 59%);
+	color: rgb(132, 143, 169);
 	letter-spacing: 3px;
 }
 

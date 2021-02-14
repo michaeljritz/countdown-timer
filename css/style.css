@@ -16,12 +16,11 @@
   height: 120px;
   font-size: 3.6rem;
   border-radius: 10px;
-  color: #fb6087;
-  background-color: #343650;
-  background: radial-gradient(circle at top left, transparent 5px, #343650 0) bottom left, radial-gradient(circle at bottom left, transparent 5px, #343650 0) top left, radial-gradient(circle at top right, transparent 5px, #343650 0) bottom right, radial-gradient(circle at bottom right, transparent 5px, #343650 0) top right;
+  color: #fa5f85;
+  background: radial-gradient(circle at top left, transparent 5px, #34364f 0) bottom left, radial-gradient(circle at bottom left, transparent 5px, #34364f 0) top left, radial-gradient(circle at top right, transparent 5px, #34364f 0) bottom right, radial-gradient(circle at bottom right, transparent 5px, #34364f 0) top right;
   background-size: 50% 50%;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #171920;
 }
 
 .card-top {
@@ -40,7 +39,7 @@
 .card-label {
   padding-top: 15px;
   font-size: .8rem;
-  color: #8486a9;
+  color: #848fa9;
   letter-spacing: 3px;
 }
 
@@ -76,7 +75,7 @@ body {
   margin: 0;
   height: 80vh;
   text-align: center;
-  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
+  background: url("../images/bg-stars.svg"), linear-gradient(#1e1e28, #241c2b) no-repeat;
   background-attachment: fixed;
 }
 
