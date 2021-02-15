@@ -4,17 +4,16 @@ function updateCountdownTimer() {
 	remainingTimeObj = getRemainingTimeDayHourMinuteSecond(launchDate);
 
 	if (remainingTimeObj.UTC <= 0) {
-		document.getElementById('day-counter').innerText = '00';
-		document.getElementById('hour-counter').innerText = '00';
-		document.getElementById('minute-counter').innerText = '00';
-		document.getElementById('second-counter').innerText = '00';
-	} else {
-		document.getElementById('day-counter').innerText = remainingTimeObj.days.toString().padStart(2, '0');
-		document.getElementById('hour-counter').innerText = remainingTimeObj.hours.toString().padStart(2, '0');
-		document.getElementById('minute-counter').innerText = remainingTimeObj.minutes.toString().padStart(2, '0');
-		document.getElementById('second-counter').innerText = remainingTimeObj.seconds.toString().padStart(2, '0');
+		document.getElementById('day-digit').innerText = '00';
+		document.getElementById('hour-digit').innerText = '00';
+		document.getElementById('minute-digit').innerText = '00';
+		document.getElementById('second-digit').innerText = '00';
+	} else { 
+		document.getElementById('day-digit').innerText = remainingTimeObj.days.toString().padStart(2, '0');
+		document.getElementById('hour-digit').innerText = remainingTimeObj.hours.toString().padStart(2, '0');
+		document.getElementById('minute-digit').innerText = remainingTimeObj.minutes.toString().padStart(2, '0');
+		document.getElementById('second-digit').innerText = remainingTimeObj.seconds.toString().padStart(2, '0');
 	}
-
 	return remainingTimeObj;
 }
 

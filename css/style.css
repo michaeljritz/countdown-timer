@@ -8,13 +8,13 @@
 }
 
 .card-digit {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 120px;
   height: 120px;
   font-size: 3.6rem;
+  margin: 0;
   border-radius: 10px;
   color: #fa5f85;
   background-color: #34364f;

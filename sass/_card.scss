@@ -8,13 +8,13 @@
 }
 
 .card-digit {
-	position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 120px;
     height: 120px;
     font-size: 3.6rem;
+	margin: 0;
 	border-radius: 10px;
 	color: rgb(250, 95, 133);
 	background-color: rgb(52, 54, 79);
@@ -64,4 +64,3 @@
 		font-size: .4rem;
 	}
 }
-
