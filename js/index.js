@@ -1,4 +1,4 @@
-let launchDate = new Date("Feb 14, 2021 16:20:00").getTime();
+let launchDate = new Date("May 1, 2021 01:00:00").getTime();
 
 function updateCountdownTimer() {
 	remainingTimeObj = getRemainingTimeDayHourMinuteSecond(launchDate);
