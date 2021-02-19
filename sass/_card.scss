@@ -5,7 +5,7 @@
     font-family: 'Red Hat Text', sans-serif;
 	font-weight: 700;
     text-align: center;
-    color: white;
+    color: $white;
 }
 
 .card-digit {
@@ -17,17 +17,17 @@
     font-size: 4.8rem;
 	margin: 0;
 	border-radius: 7px;
-	color: rgb(250, 95, 133);
-	background-color: rgb(52, 54, 79);
-	box-shadow: 0px 8px rgb(23, 25, 32);
-	background: radial-gradient(circle at 0 50%, rgb(23, 25, 32) 4%, transparent 4px),
-				radial-gradient(circle at 100% 50%, rgb(23, 25, 32) 4%, rgb(52, 54, 79) 4px);
+	color: $pink;
+	background-color: $blue;
+	box-shadow: 0px 8px $black-blue;
+	background: radial-gradient(circle at 0 50%, $black-blue 4%, transparent 4px),
+				radial-gradient(circle at 100% 50%, $black-blue 4%, $blue 4px);
 }
 
 .card-label {
 	padding-top: 10px;
 	font-size: .9rem;
-	color: rgb(132, 143, 169);
+	color: $light-blue;
 	letter-spacing: 6px;
 }
 

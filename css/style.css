@@ -17,16 +17,16 @@
   font-size: 4.8rem;
   margin: 0;
   border-radius: 7px;
-  color: #fa5f85;
-  background-color: #34364f;
-  box-shadow: 0px 8px #171920;
-  background: radial-gradient(circle at 0 50%, #171920 4%, transparent 4px), radial-gradient(circle at 100% 50%, #171920 4%, #34364f 4px);
+  color: #fb6087;
+  background-color: #343650;
+  box-shadow: 0px 8px #191a24;
+  background: radial-gradient(circle at 0 50%, #191a24 4%, transparent 4px), radial-gradient(circle at 100% 50%, #191a24 4%, #343650 4px);
 }
 
 .card-label {
   padding-top: 10px;
   font-size: .9rem;
-  color: #848fa9;
+  color: #8486a9;
   letter-spacing: 6px;
 }
 
@@ -69,7 +69,7 @@
 body {
   margin: 0;
   text-align: center;
-  background: url("../images/bg-stars.svg"), linear-gradient(#1e1e28, #241c2b) no-repeat;
+  background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
   background-attachment: fixed;
 }
 
@@ -129,11 +129,11 @@ footer {
 
 #footer-icons svg {
   display: block;
-  fill: #848fa9;
+  fill: #8486a9;
 }
 
 #footer-icons svg:hover {
-  fill: #fa5f85;
+  fill: #fb6087;
 }
 
 @media only screen and (max-width: 550px) {

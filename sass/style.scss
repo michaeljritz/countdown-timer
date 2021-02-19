@@ -1,3 +1,4 @@
+@import 'variables';
 @import 'card';
 
 .hide {
@@ -7,8 +8,8 @@
 body {
 	margin: 0;
 	text-align: center;
-	background: url('../images/bg-stars.svg'), linear-gradient(rgb(30, 30, 40), rgb(36, 28, 43)) no-repeat;
-    background-attachment: fixed;
+	background: url('../images/bg-stars.svg'), linear-gradient($black-blue, $dark-blue) no-repeat;
+	background-attachment: fixed;
 }
 
 #main {
@@ -30,7 +31,7 @@ header {
 	font-size: 1.3rem;
     letter-spacing: 8px;
     text-align: center;
-    color: white;
+	color: $white;
 }
 
 #card-container {
@@ -66,11 +67,12 @@ footer {
 
 	svg {
 		display: block;
-		fill: rgb(132, 143, 169);
+		fill: $light-blue;
+
 	}
 
 	svg:hover {
-		fill: rgb(250, 95, 133);
+		fill: $pink;
 	}
 }
 
