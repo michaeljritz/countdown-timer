@@ -3,6 +3,7 @@
     flex-direction: column;
     margin: 0px 15px;
     font-family: 'Red Hat Text', sans-serif;
+	font-weight: 700;
     text-align: center;
     color: white;
 }
@@ -11,11 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 120px;
-    font-size: 3.6rem;
+    width: 140px;
+    height: 140px;
+    font-size: 4.8rem;
 	margin: 0;
-	border-radius: 10px;
+	border-radius: 7px;
 	color: rgb(250, 95, 133);
 	background-color: rgb(52, 54, 79);
 	box-shadow: 0px 8px rgb(23, 25, 32);
@@ -24,43 +25,48 @@
 }
 
 .card-label {
-	padding-top: 15px;
-	font-size: .8rem;
+	padding-top: 10px;
+	font-size: .9rem;
 	color: rgb(132, 143, 169);
-	letter-spacing: 3px;
+	letter-spacing: 6px;
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
 
 	.card {
 		margin: 0px 8px;
 	}
 
 	.card-digit {
-		width: 80px;
-		height: 80px;
-		font-size: 2.1rem;
+		width: 90px;
+		height: 90px;
+		font-size: 3rem;
+		border-radius: 3px;
 	}
 
 	.card-label {
-		font-size: .5rem;
+		font-size: .6rem;
+		letter-spacing: 4px;
 	}
+
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 550px) {
 
 	.card {
-		margin: 0px 5px;
+		margin: 0px 7px;
 	}
 
 	.card-digit {
-		width: 60px;
-		height: 60px;
-		font-size: 1.8rem;
+		width: 68px;
+		height: 68px;
+		font-size: 2.2rem;
+		border-radius: 3px;
 	}
 
 	.card-label {
-		font-size: .4rem;
+		font-size: .42rem;
+		letter-spacing: 4px;
 	}
 }
