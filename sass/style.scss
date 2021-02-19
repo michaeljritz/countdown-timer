@@ -7,7 +7,6 @@
 
 body {
 	margin: 0;
-	// height: 80vh;
 	text-align: center;
 	background: url('../images/bg-stars.svg'), linear-gradient($black-blue, $dark-blue) no-repeat;
 	background-attachment: fixed;
@@ -46,14 +45,14 @@ footer {
 	align-items: center;
 	bottom: 0;
 	width: 100%;
-	overflow: hidden;
+	// overflow: hidden;
 }
 
 #footer-background {
 	min-height: 200px;
 	width: 100%;
 	min-width: 700px;
-	overflow: hidden;
+	// overflow: hidden;
 }
 
 #footer-icons {
