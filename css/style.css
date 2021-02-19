@@ -68,7 +68,6 @@
 
 body {
   margin: 0;
-  height: 80vh;
   text-align: center;
   background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
   background-attachment: fixed;
@@ -79,6 +78,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 150px;
   height: 100%;
   position: relative;
   z-index: 100;
