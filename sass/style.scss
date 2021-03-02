@@ -10,6 +10,8 @@ body {
 	text-align: center;
 	background: url('../images/bg-stars.svg'), linear-gradient($black-blue, $dark-blue) no-repeat;
 	background-attachment: fixed;
+
+	height: 70vh;
 }
 
 #main {
@@ -17,10 +19,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	margin-top: 150px;
 	height: 100%;
 	position: relative;
 	z-index: 100;
+
 }
 
 header {
@@ -48,9 +50,9 @@ footer {
 }
 
 #footer-background {
+	max-height: 300px;
 	min-height: 200px;
 	width: 100%;
-	min-width: 700px;
 }
 
 #footer-icons {
@@ -82,3 +84,4 @@ footer {
 		padding-bottom: 50px;
 	}
 }
+

@@ -19,7 +19,7 @@
   border-radius: 7px;
   color: #fb6087;
   background-color: #343650;
-  box-shadow: 0px 8px #191a24;
+  box-shadow: 0px 8px #111112;
   background: radial-gradient(circle at 0 50%, #191a24 4%, transparent 4px), radial-gradient(circle at 100% 50%, #191a24 4%, #343650 4px);
 }
 
@@ -71,6 +71,7 @@ body {
   text-align: center;
   background: url("../images/bg-stars.svg"), linear-gradient(#191a24, #1e1f29) no-repeat;
   background-attachment: fixed;
+  height: 70vh;
 }
 
 #main {
@@ -78,7 +79,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
   height: 100%;
   position: relative;
   z-index: 100;
@@ -109,9 +109,9 @@ footer {
 }
 
 #footer-background {
+  max-height: 300px;
   min-height: 200px;
   width: 100%;
-  min-width: 700px;
 }
 
 #footer-icons {

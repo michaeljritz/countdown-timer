@@ -19,7 +19,7 @@
 	border-radius: 7px;
 	color: $pink;
 	background-color: $blue;
-	box-shadow: 0px 8px $black-blue;
+	box-shadow: 0px 8px $black;
 	background: radial-gradient(circle at 0 50%, $black-blue 4%, transparent 4px),
 				radial-gradient(circle at 100% 50%, $black-blue 4%, $blue 4px);
 }
